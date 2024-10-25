@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function HeroSection() {
     return (
         <div className="my-[156px] w-full flex justify-center gap-[150px] mx-auto flex-wrap">
