@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function HeroSection() {
     return (
         <div className="my-[156px] w-full flex justify-center gap-[150px] mx-auto flex-wrap">
@@ -9,7 +7,6 @@ export default function HeroSection() {
                 <p className="text-gray-800">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 <button className="bg-red-400 max-w-[205px] h-[50px] border-sm">Download Resume</button>
             </div>
-            {/* <Image src={HeroImage} alt="Hero Image" /> */}
         </div>
     );
 }
